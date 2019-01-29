@@ -1,0 +1,36 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+@page {
+  size: letter;
+}
+
+html {
+  background: #ccc;
+}
+
+.App {
+  margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rot-45 {
+  transform: rotate(45deg);
+}
+
+.rot-135 {
+  transform: rotate(135deg);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  color: #f00;
+  content: "•";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
