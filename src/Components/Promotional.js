@@ -18,9 +18,17 @@ const subjArr = [
   'calculus',
 ]
 
+const colorStyleArr = [
+  'text-blue',
+  'text-green',
+  'text-yellow',
+]
+
+const randGate = (n = 0.0) => Math.random() < n 
+
 export const charify = (str) => {
   return(
-    R.addIndex(R.map)((char, i) => <div key={i} >{char}</div>, str)
+    R.addIndex(R.map)((char, i) => <div className={randGate() ? colorStyleArr[Math.floor(Math.random() * colorStyleArr.length)] : '' } key={i} >{char}</div>, str)
   )
 }
 
@@ -60,13 +68,13 @@ const Promotional = () => {
         </div>
       </div>
       <div className="flex flex-col container justify-between mb-2 w-5/6 sm:flex-col md:flex-col lg:flex-row xl:w-2/3">
-        <div className="flex font-mono font-bold text-base flex-row justify-between my-3 sm:text-xl md:text-2xl lg:text-xl lg:flex-1 lg:pr-10">
-          <img src={urlQR} className="w-24 h-24 lg:w-32 lg:h-32" alt="QR code which links to kairoscounselors.com"/>
+        <div className="flex font-mono font-bold text-base flex-row justify-between my-3 sm:text-xl md:text-2xl lg:text-xl lg:flex-1 lg:pr-10 lg:justify-start">
+          <img src={urlQR} className="w-24 h-24 lg:w-24 lg:h-24" alt="QR code which links to kairoscounselors.com"/>
           <p className="m-1">
             visit <a href="http://kairoscounselors.com" className="text-blue">kairoscounselors.com</a>
           </p>
         </div>
-        <div className="flex font-mono font-bold text-base flex-row justify-between my-3 sm:text-xl md:text-2xl lg:text-xl lg:flex-1">
+        <div className="flex font-mono font-bold text-base flex-row justify-between my-3 sm:text-xl md:text-2xl lg:text-xl lg:flex-1 lg:justify-end">
           <div className="lg:pr-1">
             <p className="m-1">
               call, email & SMS to set up a free phone consultation
@@ -76,7 +84,7 @@ const Promotional = () => {
               <li>call & SMS 681.321.1312</li>
             </ul>
           </div>
-          <img src={contactQR} className="w-24 h-24 lg:w-32 lg:h-32" alt="QR containing 'email: info@kairoscounselors.com' and 'call & SMS: 6813211312'"/>
+          <img src={contactQR} className="w-24 h-24 lg:w-24 lg:h-24" alt="QR containing 'email: info@kairoscounselors.com' and 'call & SMS: 6813211312'"/>
         </div>
       </div>
       <Footer />
