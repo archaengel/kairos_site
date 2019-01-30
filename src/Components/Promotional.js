@@ -28,11 +28,11 @@ const Promotional = () => {
   return(
     <div>
       <Header />
-      <div className="container my-12 font-mono text-center font-black text-blue text-2xl w-5/6 mt-16 sm:text-3xl md:text-4xl">
+      <div className="container my-12 font-mono text-center font-black text-blue text-2xl w-5/6 mt-16 sm:text-3xl md:text-4xl lg:w-3/5 lg:text-5xl">
         <p>
           limited maths tutoring available for spring 2019 semester
         </p>
-        <div className="flex flex-col text-2xl text-red font-mono uppercase sm:text-3xl md:text-4xl">
+        <div className="flex flex-col text-2xl text-red font-mono uppercase sm:text-3xl md:text-4xl lg:text-4xl xl:text-6xl">
           <div className="flex flex-row justify-between my-2 sm:my-4 md:my-4">
             { charify(subjArr[0]) }
           </div>
@@ -59,7 +59,7 @@ const Promotional = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col container justify-between mb-2 w-5/6 sm:flex-col md:flex-col lg:flex-row">
+      <div className="flex flex-col container justify-between mb-2 w-5/6 sm:flex-col md:flex-col lg:flex-row xl:w-2/3">
         <div className="flex font-mono font-bold text-base flex-row justify-between my-3 sm:text-xl md:text-2xl lg:text-xl lg:flex-1 lg:pr-10">
           <img src={urlQR} className="w-24 h-24 lg:w-32 lg:h-32" alt="QR code which links to kairoscounselors.com"/>
           <p className="m-1">
