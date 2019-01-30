@@ -7,7 +7,7 @@ const About = () => (
   <div>
     <Header />
     <div className="items-center w-screen my-8 sm:my-8 md:my-8 lg:my-12 flex justify-center flex-col">
-      <article className="my-8 mx-20 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
+      <article className="m-4 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
         <h2 className="text-3xl mb-3 font-bold sm:text-3xl sm:mb-6 md:text-3xl md:mb-6 lg:text-4xl">
           we prefer <div className="inline-block text-blue">construction</div> over <div className="inline-block text-red">instruction</div>
         </h2>     
@@ -27,7 +27,7 @@ const About = () => (
           that should be ours to enjoy.
         </p>
       </article>
-      <article className="my-8 mx-20 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
+      <article className="m-4 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
         <h2 className="text-3xl mb-3 font-bold sm:text-3xl sm:mb-6 md:text-3xl md:mb-6 lg:text-4xl">
           subjects
         </h2>     
