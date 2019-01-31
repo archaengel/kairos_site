@@ -20,8 +20,8 @@ const subjArr = [
 
 const colorStyleArr = [
   'text-blue',
-  'text-green',
-  'text-yellow',
+  // 'text-green',
+  'text-black',
 ]
 
 const randGate = (n = 0.0) => Math.random() < n 
