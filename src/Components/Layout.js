@@ -22,7 +22,7 @@ const Layout = () => {
         <Route path='/about' component={About} />
         <Route path='/promotional' component={Promotional} />
         <Route path='/contact' component={Contact} />
-        <Route path='/careers' component={Careers} />
+        <Route path='/jobs' component={Careers} />
       </Switch>
     </div>
     </Router>
