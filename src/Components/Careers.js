@@ -15,7 +15,7 @@ const Careers = () => (
     <div className="container flex flex-col justify-center w-3/5 my-8 sm:my-8 md:my-16">
       <article className="">
         <h2 className="mb-6 text-3xl sm:text-4xl sm:mb-6 md:mb-10 md:text-5xl">
-         do you love <div className="inline-block text-red">math</div>?
+         love <div className="inline-block text-red">math</div>? 
         </h2>
         <p className="font-mono font-bold text-lg text-justify sm:text-2xl md:text-2xl">
           We are always looking for motivated individuals to work with. If you have something
