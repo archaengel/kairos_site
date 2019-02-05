@@ -15,12 +15,12 @@ const About = () => (
           The coaches at Kairos prioritize pupil-directed pedagogy.
         </p>
         <p className="text-xl font-bold my-4 sm:text-2xl md:text-2xl lg:text-3xl font-mono">
-          Learners often encounter challenges with Mathematics when the learning process transforms
-          from relying on discovery to depending on memorization. Instead of attempting
+          Learners often encounter challenges with Mathematics when the learning process shifts
+          from a focus on discovery to a reliance on memorization. Instead of attempting
           to <div className="inline-block text-red">instruct</div> pieces of discrete information for
-          the student to grok, our group of tutors collaborates with the student's own reasoning
+          the student to store and recall later, our group of tutors collaborates with the student's own reasoning
           in order to <div className="inline-block text-blue">construct</div>, from the ground up,
-          a permanent and robust foundation for discovery.
+          a permanent and robust foundation for discovery and exploration.
         </p>
         <p className="text-xl font-bold my-4 sm:text-2xl md:text-2xl lg:text-3xl font-mono">
           Mathematics ought not to be a series of esoteric procedures. It is a game
