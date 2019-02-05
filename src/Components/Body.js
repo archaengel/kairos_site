@@ -10,7 +10,7 @@ const Body = () => (
           we are
         </h2>     
         <p className="text-xl font-bold sm:text-2xl md:text-2xl lg:text-3xl font-mono">
-          a set of designers, coders, and mathematicians, operating out of Portland, OR, tutoring mathematics with a focus on comprehension
+          a set of artists, coders, and other mathematicians, operating out of Portland, OR, tutoring mathematics with a focus on intuition and comprehension
         </p>
       </article>
       <article className="my-8 mx-20 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
