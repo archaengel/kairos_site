@@ -1,5 +1,4 @@
 import React from 'react';
-// import { hot } from 'react-hot-loader/root';
 
 const Header = () => (
   <header className="my-10 sm:my-10 md:my-10 lg:my-16 flex justify-center">
@@ -15,11 +14,10 @@ const Header = () => (
         academic
       </h1>
       <h1>
-        counselors   
+        counselors
       </h1>
     </div>
   </header>
 )
 
-// export default hot(Header);
 export default Header;

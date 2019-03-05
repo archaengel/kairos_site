@@ -3942,6 +3942,10 @@ table {
   z-index: auto;
 }
 
+.z-m1 {
+  z-index: -1;
+}
+
 @page {
   size: letter;
 }
@@ -3963,6 +3967,11 @@ html {
 .rot-135 {
   -webkit-transform: rotate(135deg);
           transform: rotate(135deg);
+}
+
+#header-logo {
+  position: absolute;
+  z-index: 1;
 }
 
 ul {
@@ -7369,6 +7378,10 @@ ul li::before {
   .sm\:z-auto {
     z-index: auto;
   }
+
+  .sm\:z-m1 {
+    z-index: -1;
+  }
 }
 
 @media (min-width: 768px) {
@@ -10762,6 +10775,10 @@ ul li::before {
 
   .md\:z-auto {
     z-index: auto;
+  }
+
+  .md\:z-m1 {
+    z-index: -1;
   }
 }
 
@@ -14157,6 +14174,10 @@ ul li::before {
   .lg\:z-auto {
     z-index: auto;
   }
+
+  .lg\:z-m1 {
+    z-index: -1;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -17550,5 +17571,9 @@ ul li::before {
 
   .xl\:z-auto {
     z-index: auto;
+  }
+
+  .xl\:z-m1 {
+    z-index: -1;
   }
 }
