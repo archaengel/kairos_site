@@ -1,6 +1,6 @@
 import React from 'react';
 // import { hot } from 'react-hot-loader/root';
-import relative_numbers from '../assets/rel_num.png';
+import transparentLogo from '../assets/logo_transparent.svg';
 
 const Body = () => (
   <div>
@@ -26,8 +26,8 @@ const Body = () => (
         </ul>
       </article>
     </div>
-    <div className="my-20 sm:my-32 flex justify-center">
-      <img className=" h-50 w-50 sm:h-64 sm:w-64 lg:w-70 lg:h-70 rot-45" src={relative_numbers} alt="equivalence classes of the product of the natural numbers"/>
+    <div className="sm:my-32 flex justify-center">
+      <img src={transparentLogo} className="container w-50 h-50 my-6 sm:w-50 sm:h-50 md:w-64 sm:my-6 md:h-64 md:my-8" alt="Kairos Academic Counselors logo."/>
     </div>
   </div>
 );
