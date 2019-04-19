@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import { charify } from './Promotional';
-import transparentLogo from '../assets/logo_transparent.svg';
+import relative_numbers from '../assets/rel_num.png';
 
 
 const Careers = () => (
@@ -22,7 +22,7 @@ const Careers = () => (
           to contribute, don't hesitate to send your information to <a href="mailto:jobs@kairoscounselors.com">jobs@kairoscounselors.com</a>
         </p>
       </article>
-      <img src={transparentLogo} className="container w-40 h-40 my-16 sm:w-50 sm:h-50 md:w-64 sm:my-16 md:h-64 md:my-8" alt="Kairos Academic Counselors logo."/>
+      <img className="container h-40 w-40 my-10 sm:h-64 sm:w-64 sm:my-24 lg:w-70 lg:h-70 rot-45" src={relative_numbers} alt="equivalence classes of the product of the natural numbers"/>
     </div>
     <Footer />
   </div>
