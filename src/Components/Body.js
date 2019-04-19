@@ -5,7 +5,7 @@ import relative_numbers from '../assets/rel_num.png';
 const Body = () => (
   <div>
     <div className="items-center w-screen my-8 sm:my-8 md:my-8 lg:my-12 flex justify-center flex-col">
-      <article className="my-8 mx-20 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
+      <article className="my-8 mx-4 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
         <h2 className="text-3xl mb-3 font-bold sm:text-3xl sm:mb-6 md:text-3xl md:mb-6 lg:text-4xl">
           we are
         </h2>     
@@ -13,7 +13,7 @@ const Body = () => (
           a set of artists, coders, and other mathematicians, operating out of Portland, OR, tutoring mathematics with a focus on intuition and comprehension
         </p>
       </article>
-      <article className="my-8 mx-20 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
+      <article className="my-8 mx-4 sm:mx-32 sm:my-8 md:w-2/3 md:my-8 lg:w-1/2 lg:my-12">
         <h2 className="text-3xl mb-3 font-bold sm:text-3xl sm:mb-6 md:text-3xl md:mb-6 lg:text-4xl">
           to get in touch
         </h2>     
